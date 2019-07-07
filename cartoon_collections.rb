@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)
   array.each_with_index {|word, index|
-    print "#{index + 1}. #{}index"
+    print "#{index + 1}. #{word)}"
   }
 end
 
