@@ -1,12 +1,12 @@
 def roll_call_dwarves(array)
-  array.each_with_index {|word, index|
+  array.each_with_index { |word, index|
     print "#{index + 1}. #{word}"
   }
 end
 
 def summon_captain_planet(array)
   array
-  array.map {|word|
+  array.map { |word|
     
   }
 end
